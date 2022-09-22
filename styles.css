@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&family=Source+Sans+Pro&display=swap');
 
 body{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato', sans-serif; 
+}
+
+:root{
+    --primary-color: #22d3ee;
+}
+
+/** container**/
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+     max-width: 600px;
+     margin: auto;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    color: var(--primary-color);
+    border-radius:0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius:0.5rem;
+    border: 1px solid var(--primary-color);
 }
