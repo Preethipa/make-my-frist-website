@@ -1,18 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Playfair+Display&family=Source+Sans+Pro&display=swap');
 
 body{
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Merriweather', serif; 
     margin:0px;
+    
 }
 
 :root{
     --primary-color:#d946ef;
     --dark-gray:#9ca3af;
     --off-white:#e2e8f0;
+    
 }
 
 hr{
     margin:2rem 0rem;
+}
+
+/**spaces**/
+.margin.md{
+    margin: 2rem;
 }
 
 /** container**/
@@ -26,8 +33,10 @@ hr{
 }
 
 .link{
+    box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
+   
 }
 
 .link-primary{
@@ -35,6 +44,7 @@ hr{
     border-radius:0.5rem;
     border: 1px solid var(--primary-color);
     color:#d946ef;
+   
 }
 
 .secondary-link{
@@ -81,6 +91,7 @@ hr{
 /**header**/
 .coder{
     padding:2rem;
+    padding-top: 5rem;;
 }
 
 .coder .coder-img{
@@ -93,6 +104,9 @@ hr{
     padding-top: 1rem;
     color:var(--dark-gray);
     text-align: center; 
+}
+.coder .coder-heading .heading-inverted{
+    color:var(--primary-color);
 }
 
 /**section**/
@@ -119,7 +133,11 @@ hr{
 
 .footer.link{
     color:white;
+}
 
+.footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer.ul{
