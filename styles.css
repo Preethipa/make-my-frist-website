@@ -101,7 +101,7 @@ hr{
 }
 
 .coder-heading{
-    padding-top: 1rem;
+    padding-top: 0.2rem;
     color:var(--dark-gray);
     text-align: center; 
 }
