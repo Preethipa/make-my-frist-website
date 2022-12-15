@@ -127,6 +127,11 @@ hr{
 
 }
 
+/**blog**/
+.blog-content{
+    padding: 1rem 2.5rem;
+}
+
 /**footer**/
 .footer{
     background-color: var(--primary-color);
