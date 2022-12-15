@@ -93,10 +93,10 @@ hr{
     font-weight:bold;
 }
 
-/**header**/
+/**header**/ 
 .coder{
     padding:2rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
    
 }
 
@@ -107,7 +107,7 @@ hr{
 }
 
 .coder-heading{
-    padding-top: 0.2rem;
+    padding-top: 0.1rem;
     color:var(--dark-gray);
     text-align: center; 
 }
@@ -129,7 +129,12 @@ hr{
 
 /**blog**/
 .blog-content{
-    padding: 1rem 2.5rem;
+    padding: 0rem 2.5rem;
+}
+
+.head-blogs{
+    font-size:large;
+    font-weight: bold;
 }
 
 /**footer**/
