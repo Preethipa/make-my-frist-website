@@ -38,20 +38,21 @@ hr{
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    font-size: smaller;
+    font-size: medium;
 }
 
 .link-primary{
     background-color: var(--primary-color);
-    border-radius:1rem;
+    border-radius:2rem;
     border: 1px solid var(--primary-color);
+    font-size: smaller;
 }
 
 .secondary-link{
     background-color: var(--primary-color);
     border-radius:1rem;
     border: 1px solid var(--primary-color);
-   
+    font-size: smaller;
 }
 
 
