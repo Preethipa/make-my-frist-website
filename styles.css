@@ -3,6 +3,7 @@
 body{
     font-family: 'Merriweather', serif; 
     margin:0px;
+    position: static;
     
 }
 
@@ -119,6 +120,9 @@ hr{
 }
 
 /**section**/
+p{
+    text-align: center;
+}
 .section{
    
     padding: 2rem;
