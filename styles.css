@@ -25,6 +25,7 @@ hr{
 /** container**/
 .container{
     padding: 0rem 1rem;
+    text-align: center;
 }
 
 .container-center{
@@ -78,6 +79,8 @@ hr{
 
 .nav-brand{
     font-weight: bold;
+    text-align:left ;
+
 }
 
 .nav-pills{
@@ -117,14 +120,20 @@ hr{
 
 /**section**/
 .section{
+   
     padding: 2rem;
+    
 }
 .section h3{
     text-align: center;
 }
 .off{
     background-color:var(--off-white);
+}
 
+.section, .section-off{
+    text-align: center;
+    
 }
 
 /**blog**/
@@ -139,6 +148,7 @@ hr{
 
 /**footer**/
 .footer{
+    margin-top: 3rem;
     background-color: var(--primary-color);
     text-align: center;
     padding:2rem 1rem;
@@ -160,7 +170,6 @@ hr{
     padding-inline-start: 0rem;
 }
 
-.section,.section-off{
-    text-align:center;
-}
+
+
 
