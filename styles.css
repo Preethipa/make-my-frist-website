@@ -49,7 +49,7 @@ hr{
 }
 
 .secondary-link{
-    border-radius:1.5rem;
+    border-radius:2rem;
     border: 1px solid var(--primary-color);
     font-size: smaller;
 }
@@ -61,10 +61,6 @@ hr{
  
 
 /**lists**/
-.list-non-bullet{
-    list-style: none;
-}
-
 .list-item-inline{
     display:inline;
     padding: 0rem 0.5rem;
